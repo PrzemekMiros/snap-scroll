@@ -1,0 +1,30 @@
+body {
+    color: #fff;
+}
+
+h1 {
+    background: linear-gradient(-60deg, #47ffd3 10%, #531eff 40%, #ff1e98 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Hero
+--------------------------------------- */
+
+.hero {
+    background: radial-gradient(circle at top left, #15005a 10%, #1c0077 20%, #15005a 60%);
+}
+
+/* About
+--------------------------------------- */
+
+.about {
+    background: linear-gradient(-45deg, #8f1fff 10%, #4558f6 40%, #14b1e2 80%);
+}
+
+/* Offer
+--------------------------------------- */
+
+.offer {
+    background: radial-gradient(circle at top right, #3AD6D6 -10%, #3AD6D6 -10%, #008AC5 70%);
+}
