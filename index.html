@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="pl" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - A Pen by Przemek Miros</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snap scroll with animation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="src/scss/style.css">
   <link rel="stylesheet" href="src/scss/typography.css">
   <link rel="stylesheet" href="src/scss/colors.css">
@@ -14,13 +19,13 @@
 
         <section class="hero">
             <div class="container">
-                <h1>Snap scroll</h1>
+                <h1>Snap scroll animation</h1>
             </div>
         </section>
 
         <section class="about">
             <div class="container">
-                <span>01</span>
+                <span class="up-text">01</span>
                 <h2>Przykładowy nagłówek</h2>
                 <div class="row">
                     <div class="col-md-6">
@@ -34,7 +39,10 @@
         </section>
 
         <section class="offer">
-          <h2>Another text</h2>
+            <div class="container">
+                <span class="up-text">02</span>
+                <h2>Another text</h2>
+            </div>
         </section>
 
     </div>
@@ -43,7 +51,6 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js'></script>
 <script src="src/js/animation.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
 </body>
 </html>

@@ -32,3 +32,6 @@ section {
     align-items: center;
 }
 
+.up-text {
+    display: inline-block;
+}
