@@ -1,0 +1,39 @@
+:root {
+    --xlarge: 100px;
+    --large: 80px;
+    --medium: 60px;
+    --small: 40px;
+    --xsmall: 20px
+}
+
+.pt-xlarge {
+    padding-top: var(--xlarge);
+}
+.pt-large {
+    padding-top: var(--large);
+}
+.pt-medium {
+    padding-top: var(--medium);
+}
+.pt-small {
+    padding-top: var(--small);
+}
+.pt-xsmall {
+    padding-top: var(--xsmall);
+}
+
+.pb-xlarge {
+    padding-bottom: var(--xlarge);
+}
+.pb-large {
+    padding-bottom: var(--large);
+}
+.pb-medium {
+    padding-bottom: var(--medium);
+}
+.pb-small {
+    padding-bottom: var(--small);
+}
+.pb-xsmall {
+    padding-bottom: var(--xsmall);
+}

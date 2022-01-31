@@ -29,14 +29,16 @@
 
 body {
     font-size: var(--text-base-size);
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     color: var(--color-text);
 }
 
+.text--xxxl,
 h1, h2, h3, h4 {
     color: var(--color-text-heading);
     margin-bottom: var(--space-xxs);
     line-height: var(--heading-line-height);
+    font-family: var(--font-primary);
 }
 
 
@@ -111,7 +113,7 @@ em {
 
 @media(min-width:768px) {
     :root {
-        --text-base-size: 1.2em;
+        --text-base-size: 1em;
         --text-scale-ratio: 1.5;
     }
 }

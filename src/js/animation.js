@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.from(".about h2", {
+gsap.from(".about .fadeIn", {
   scrollTrigger: {
     scroller: ".scroll-wrapper",
     trigger: ".about",
