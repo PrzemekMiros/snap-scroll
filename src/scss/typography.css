@@ -12,6 +12,7 @@
     --text-xl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
     --text-xxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
     --text-xxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+    --text-xxxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
 
     --heading-line-height: 1.2;
     --body-line-height: 1.4;
@@ -40,7 +41,6 @@ h1, h2, h3, h4 {
     line-height: var(--heading-line-height);
     font-family: var(--font-primary);
 }
-
 
 .text--xxxl {
     font-size: var(--text-xxxl);
@@ -114,7 +114,7 @@ em {
 @media(min-width:768px) {
     :root {
         --text-base-size: 1em;
-        --text-scale-ratio: 1.6;
+        --text-scale-ratio: 1.55;
     }
 }
 
