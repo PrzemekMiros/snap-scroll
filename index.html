@@ -7,7 +7,7 @@
   <title>Snap scroll with animation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet"> 
 
   <link rel="stylesheet" href="src/scss/style.css">
   <link rel="stylesheet" href="src/scss/typography.css">
@@ -23,16 +23,18 @@
 
         <section class="hero">
             <div class="container">
-                <h1 class="text--xxxl">Snap scroll animation</h1>
+                <div class="hero__content">
+                    <h1 class="text--xxxl">Web<br />Studio</h1>
+                </div>
             </div>
         </section>
 
         <section class="about">
             <div class="container">
                 <span class="up-text fadeIn">01</span>
-                <h2 class="fadeIn">Przykładowy nagłówek</h2>
+                <h2 class="fadeIn">Oferowane usługi</h2>
 
-                <div class="about__carousel pt-medium fadeIn">
+                <div class="about__carousel pt-large fadeIn">
                     <div class="glide">
                         <div class="glide__track" data-glide-el="track">
                           <ul class="glide__slides">
@@ -42,8 +44,9 @@
                                 <h3 class="text--md">
                                     Strony internetowe
                                 </h3>
+                                <hr class="line">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </li>
                             <li class="glide__slide">
@@ -52,8 +55,9 @@
                                 <h3 class="text--md">
                                     Sklepy ecommerce
                                 </h3>
+                                <hr class="line">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 </p>
                             </li>
                             <li class="glide__slide">
@@ -62,8 +66,9 @@
                                 <h3 class="text--md">
                                     Pozycjonowanie
                                 </h3>
+                                <hr class="line">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 </p>
                             </li>
                           </ul>
@@ -92,6 +97,7 @@
         type: 'carousel',
         autoplay: '4000',
         perView: 3,
+        gap: 140,
         breakpoints: {
             768: {
                 perView: 1

@@ -114,7 +114,7 @@ em {
 @media(min-width:768px) {
     :root {
         --text-base-size: 1em;
-        --text-scale-ratio: 1.5;
+        --text-scale-ratio: 1.6;
     }
 }
 
