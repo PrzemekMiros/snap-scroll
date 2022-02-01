@@ -1,12 +1,18 @@
 .hero {
     justify-content: center;
     align-items: center;
+    background: radial-gradient(circle at top left, #15005a 10%, #1c0077 20%, #15005a 60%);
 }
 
 .hero__content {
     position: relative;
     width: fit-content;
     margin: 0 auto;
+}
+.hero__content h1 {
+  background: linear-gradient(-60deg, #47ffd3 10%, #531eff 40%, #ff1e98 80%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .hero__content span {
     position: absolute;
@@ -40,21 +46,70 @@
     padding-left: 110px;
     font-size: var(--text-md);
 }
+.line {
+  width: 90px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background: linear-gradient(to right, #47ffd3 0, #47ffd3 20%, #a31ecf 100%);
+  height: 2px;
+  border: none;
+  border-radius: 5px;
+}
 
+.line-wrap-left {
+    position: absolute;
+    top: 21%;
+    left: 0;
+}
+
+.line-wrap-right {
+  position: absolute;
+  bottom: 21%;
+  right: 0;
+}
 
 .line-l-1 {
-    position: absolute;
-    top: 120px;
-    left: 0;
-    width: 120px;
-    height: 4px;
-    background: #49dada;
+    margin-left: 30px;
+    width: 210px;
+    height: 12px;
+    background: linear-gradient(to right, #5625f5 0, #5625f5 20%, rgba(86, 37, 245, 0));
 }
 
 .line-l-2 {
-  position: absolute;
-  top: 90px;
-  left: 0;
+  margin-top: 15px;
+  margin-left: 70px;
+  width: 120px;
+  height: 6px;
+  background: #50ffb1
+}
+
+.line-l-3 {
+  margin-top: 15px;
+  margin-left: 120px;
+  width: 180px;
+  height: 4px;
+  background: #7b1ee7
+}
+
+.line-p-1 {
+  bottom: 10%;
+  right: 0;
+  width: 150px;
+  height: 4px;
+  background: #bb1ec1
+}
+
+.line-p-2 {
+  bottom: 12%;
+  right: 0;
+  width: 150px;
+  height: 4px;
+  background: #bb1ec1
+}
+
+.line-p-3 {
+  bottom: 15%;
+  right: 0;
   width: 150px;
   height: 4px;
   background: #bb1ec1

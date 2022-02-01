@@ -111,6 +111,12 @@ em {
     font-style: italic;
 }
 
+.up-text {
+    display: inline-block;
+    color: var(--color-accent-1);
+    font-weight: 700;
+}
+
 @media(min-width:768px) {
     :root {
         --text-base-size: 1em;
