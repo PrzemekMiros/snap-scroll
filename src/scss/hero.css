@@ -22,13 +22,13 @@
     text-transform: uppercase;
 }
 .hero__content span:nth-child(2) {
-    top: 120px;
+    top: 22%;
     left: -26px;
     font-size: var(--text-xl);
     font-weight: 700;
 }
 .hero__content span:nth-child(3) {
-    top: 205px;
+    top: 41%;
     left: 118px;
     font-size: var(--text-lg);
     font-weight: 300;
@@ -47,7 +47,7 @@
     font-size: var(--text-md);
 }
 .line {
-  width: 90px;
+  width: 5vw;
   margin-top: 18px;
   margin-bottom: 18px;
   background: linear-gradient(to right, #47ffd3 0, #47ffd3 20%, #a31ecf 100%);
@@ -70,7 +70,7 @@
 
 .line-l-1 {
     margin-left: 30px;
-    width: 210px;
+    width: 15vw;
     height: 12px;
     background: linear-gradient(to right, #5625f5 0, #5625f5 20%, rgba(86, 37, 245, 0));
 }
@@ -78,7 +78,7 @@
 .line-l-2 {
   margin-top: 15px;
   margin-left: 70px;
-  width: 120px;
+  width: 8vw;
   height: 6px;
   background: #50ffb1
 }
@@ -86,7 +86,7 @@
 .line-l-3 {
   margin-top: 15px;
   margin-left: 120px;
-  width: 180px;
+  width: 10vw;
   height: 4px;
   background: #7b1ee7
 }
@@ -117,13 +117,13 @@
 
 
 .scroll-container{
-    position: absolute;
-    bottom: 50px;
-    left: calc(100vh - 15px);
-    width: 28px;
-    height: 60px;
-    border: 2px solid #fff;
-    border-radius: 15px;
+  position: absolute;
+  bottom: 50px;
+  left: calc(50% - 15px);
+  width: 28px;
+  height: 60px;
+  border: 2px solid #fff;
+  border-radius: 15px;
   }
   
   .scroller{
