@@ -10,23 +10,3 @@ body {
     color: #fff;
 }
 
-
-.about {
-    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
-}
-
-.service {
-    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
-}
-
-.realisation {
-    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
-}
-
-.opinion {
-    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
-}
-
-.contact {
-    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
-}

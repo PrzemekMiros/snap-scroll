@@ -70,25 +70,25 @@
 }
 
 .line-l-1 {
-    margin-left: 30px;
+    margin-left: 2vw;
     width: 15vw;
-    height: 12px;
+    height: .5em;
     background: linear-gradient(to right, #5625f5 0, #5625f5 20%, rgba(86, 37, 245, 0));
 }
 
 .line-l-2 {
-  margin-top: 15px;
-  margin-left: 70px;
+  margin-top: .8em;
+  margin-left: 5vw;
   width: 8vw;
-  height: 6px;
+  height: .25em;
   background: #50ffb1
 }
 
 .line-l-3 {
-  margin-top: 15px;
-  margin-left: 120px;
+  margin-top: .8em;
+  margin-left: 8vw;
   width: 10vw;
-  height: 4px;
+  height: .15em;
   background: #7b1ee7
 }
 

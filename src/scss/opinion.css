@@ -1,12 +1,14 @@
+.opinion {
+    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
+}
 .opinion p {
     margin-bottom: 0;
 }
 .opinion__slider__wrap {
     position: relative;
-    padding: 2.2em 8em;
+    padding: 5em 2em;
     text-align: center;
-  }
-
+}
 .opinion__slider__wrap::before,
 .opinion__slider__wrap::after {
    position: absolute;
@@ -27,4 +29,10 @@
     background-size: cover;
     bottom: 0;
     right: 0;
+}
+
+@media(min-width:768px) {
+    .opinion__slider__wrap {
+        padding: 2.2em 8em;
+    }
 }
