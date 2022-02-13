@@ -23,19 +23,19 @@
 }
 .hero__content span:nth-child(2) {
     top: 22%;
-    left: -26px;
+    left: -1em;
     font-size: var(--text-xl);
     font-weight: 700;
 }
 .hero__content span:nth-child(3) {
     top: 4em;
-    left: 118px;
+    left: 4em;
     font-size: var(--text-lg);
     font-weight: 300;
     letter-spacing: 3px;
 }
 .hero__content h1 {
-    margin-bottom: 10px;
+    margin-bottom: .1em;
     font-family: serif;
     font-size: var(--text-xxxxl);
     letter-spacing: 2px;
@@ -43,7 +43,7 @@
     text-align: end;
 }
 .hero__content p {
-    padding-left: 110px;
+    padding-left: 4em;
     font-size: var(--text-md);
 }
 .line {

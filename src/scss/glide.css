@@ -8,8 +8,12 @@
 .glide__slide {
         padding-left: 4em;
     }
+.glide-3 .glide__slide {
+        padding-left: 6em;
+        padding-right: 6em;
+    }
 .service__carousel img {
     width: 8vw;
     transform: translateX(-.2em);
-    margin-bottom: -3.8em;
+    margin-bottom: -3.2em;
 }

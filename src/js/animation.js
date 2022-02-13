@@ -145,3 +145,29 @@ gsap.from(".realisation .up-text, .realisation h2, .glide-2", {
   stagger: .2,
   ease: 'Power2.easeOut'
 });
+
+gsap.from(".opinion .up-text, .opinion h2, .glide-3", {
+  scrollTrigger: {
+    scroller: ".scroll-wrapper",
+    trigger: ".opinion",
+    start: 'center 55%',
+    toggleActions: 'play complete restart reverse'
+  }, 
+  opacity: 0,
+  duration: 2,
+  stagger: .2,
+  ease: 'Power2.easeOut'
+});
+
+gsap.from(".contact .up-text, .contact h2, .contact-form", {
+  scrollTrigger: {
+    scroller: ".scroll-wrapper",
+    trigger: ".contact",
+    start: 'center 55%',
+    toggleActions: 'play complete restart reverse'
+  }, 
+  opacity: 0,
+  duration: 2,
+  stagger: .2,
+  ease: 'Power2.easeOut'
+});

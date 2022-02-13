@@ -1,0 +1,30 @@
+.opinion p {
+    margin-bottom: 0;
+}
+.opinion__slider__wrap {
+    position: relative;
+    padding: 2.2em 8em;
+    text-align: center;
+  }
+
+.opinion__slider__wrap::before,
+.opinion__slider__wrap::after {
+   position: absolute;
+   content: "";
+   width: 5em;
+   height: 3.55em;
+ }
+
+.opinion__slider__wrap::before {
+   background: url("../img/qt-open.svg");
+   background-size: cover;
+   top: 0;
+   left: 0;
+}
+
+.opinion__slider__wrap::after {
+    background: url("../img/qt-close.svg");
+    background-size: cover;
+    bottom: 0;
+    right: 0;
+}

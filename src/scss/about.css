@@ -1,6 +1,5 @@
-.about p {
-   margin-left: 60px;
-}
-.about .img-p {
-    padding: 9%;
+@media(min-width:768px) {
+    .about p {
+        margin-left: 4em;
+     }
 }

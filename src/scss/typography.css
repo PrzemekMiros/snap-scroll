@@ -116,8 +116,9 @@ em {
 }
 
 .up-text {
-    display: inline-block;
+    display: block;
     position: relative;
+    margin-bottom: -1em;
     color: var(--color-accent-1);
     font-weight: 700;
 }
@@ -125,10 +126,10 @@ em {
 .up-text-line::before {
     position: absolute;
     content: "";
-    top: 10px;
-    left: -95px;
-    width: 68px;
-    height: 4px;
+    top: .5em;
+    left: -5.5em;
+    width: 4vw;
+    height: .1vw;
     background-color: var(--color-accent-1);
 }
 

@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="src/scss/glide.css">
   <link rel="stylesheet" href="src/scss/hero.css">
   <link rel="stylesheet" href="src/scss/about.css">
+  <link rel="stylesheet" href="src/scss/opinion.css">
   <link rel="stylesheet" href="src/scss/grid.css">
 </head>
 <body>
@@ -80,7 +81,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <span class="up-text up-text-line">01</span>
-                        <h2>Tworzenie stron <br />to moja specjalność</h2>
+                        <h2>Tworzę strony www</h2>
                         <p> 
                             Moją pierwszą stronę internetową stworzyłem w 2011 roku. Od tego czasu nieustannie specjalizuje się w web designie. Zaufaj mojemu doświadczeniu i stwórz ze mną idealną stronę
                         </p>
@@ -153,7 +154,7 @@
                                             </h3>
                                             <hr class="line">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                             </p>
                                         </div>
                                         <div class="col-md-6">
@@ -173,8 +174,26 @@
                 <img src="src/img/664.jpg" alt="">
             </div>
             <div class="container">
-                <span class="up-text">04</span>
+                <span class="up-text up-text-line">04</span>
                 <h2>Opinie klientów</h2>
+                <div class="opinion__slider pt-medium">
+                    <div class="glide-3">
+                        <div class="glide__track" data-glide-el="track">
+                          <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <div class="opinion__slider__wrap">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  
+                                    </p>
+                                </div>
+                                <p class="text-center">
+                                    Podpis klienta
+                                </p>
+                            </li>
+                          </ul>
+                        </div>
+                    </div> 
+                </div>
             </div>
         </section>
 
@@ -183,7 +202,7 @@
                 <img src="src/img/mapa.jpg" alt="">
             </div>
             <div class="container">
-                <span class="up-text">05</span>
+                <span class="up-text up-text-line">05</span>
                 <h2>Skontaktuj się ze mną</h2>
             </div>
         </section>
@@ -208,12 +227,18 @@
             }
         }
     }).mount();
-
     new Glide('.glide-2', {
         type: 'carousel',
         autoplay: '4000',
         perView: 1,
+        gap: 20,
+    }).mount()
+    new Glide('.glide-3', {
+        type: 'carousel',
+        autoplay: '4000',
+        perView: 1,
         gap: 140,
+        arrow: true,
     }).mount()
   </script>
 </body>
