@@ -28,7 +28,7 @@
     font-weight: 700;
 }
 .hero__content span:nth-child(3) {
-    top: 4em;
+    top: 4.3em;
     left: 4em;
     font-size: var(--text-lg);
     font-weight: 300;
