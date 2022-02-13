@@ -1,5 +1,5 @@
 :root {
-    --font-primary: 'Archivo', sans-serif;
+    --font-primary: 'Oswald', sans-serif;
     --font-secondary: 'Source Sans Pro', sans-serif;
 
     --text-base-size: .8em;
@@ -18,12 +18,12 @@
     --body-line-height: 1.4;
 
     --space-xxxs: 0.25em;
-    --space-xxs:  0.375em;
-    --space-xs:   0.5em;
-    --space-sm:   0.75em;
-    --space-md:   1.25em;
+    --space-xxs:  0.5em;
+    --space-xs:   0.75em;
+    --space-sm:   1em;
+    --space-md:   1.5em;
     --space-lg:   2em;
-    --space-xl:   3.25em;
+    --space-xl:   3.5em;
     --space-xxl:  5.25em;
     --space-xxxl: 8.5em;
 }
@@ -40,6 +40,9 @@ h1, h2, h3, h4 {
     margin-bottom: var(--space-xxs);
     line-height: var(--heading-line-height);
     font-family: var(--font-primary);
+}
+h2 {
+    text-transform: uppercase;
 }
 
 .text--xxxl {
@@ -76,6 +79,7 @@ p {
 
 a {
     color: var(--color-link);
+    text-decoration: none;
 }
 
 b, strong {
@@ -113,14 +117,25 @@ em {
 
 .up-text {
     display: inline-block;
+    position: relative;
     color: var(--color-accent-1);
     font-weight: 700;
 }
 
+.up-text-line::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: -95px;
+    width: 68px;
+    height: 4px;
+    background-color: var(--color-accent-1);
+}
+
 @media(min-width:768px) {
     :root {
-        --text-base-size: .8vw;
-        --text-scale-ratio: 1.55;
+        --text-base-size: 1.1vw;
+        --text-scale-ratio: 1.45;
     }
 }
 

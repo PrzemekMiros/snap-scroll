@@ -1,7 +1,7 @@
 .hero {
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle at top left, #15005a 10%, #1c0077 20%, #15005a 60%);
+    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
 }
 
 .hero__content {
@@ -28,7 +28,7 @@
     font-weight: 700;
 }
 .hero__content span:nth-child(3) {
-    top: 41%;
+    top: 4em;
     left: 118px;
     font-size: var(--text-lg);
     font-weight: 300;
@@ -48,12 +48,13 @@
 }
 .line {
   width: 5vw;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 1.2em;
+  margin-bottom: 1em;
   background: linear-gradient(to right, #47ffd3 0, #47ffd3 20%, #a31ecf 100%);
   height: 2px;
   border: none;
   border-radius: 5px;
+  margin-left: -1.2em
 }
 
 .line-wrap-left {

@@ -11,17 +11,22 @@ body {
 }
 
 
-
-/* About
---------------------------------------- */
-
 .about {
-    background: linear-gradient(-45deg, #8f1fff 10%, #4558f6 40%, #14b1e2 80%);
+    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
 }
 
-/* Offer
---------------------------------------- */
+.service {
+    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
+}
 
-.offer {
-    background: radial-gradient(circle at top right, #3AD6D6 -10%, #3AD6D6 -10%, #008AC5 70%);
+.realisation {
+    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
+}
+
+.opinion {
+    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
+}
+
+.contact {
+    background: radial-gradient(circle, rgba(3, 3, 27, 0.912) 0%, rgba(0,0,0,1) 100%);
 }
