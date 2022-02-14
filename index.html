@@ -25,33 +25,26 @@
 <body>
     <div class="scroll-wrapper">
         <section class="scroll-wrapper-section hero" id="hero">
+            <header class="site-header container-flex">
+                <div class="logo-wrap">
+                    <span class="text--md">Future Web</span>
+                </div>
+                <nav class="site-navbar">
+                    <ul>
+                      <li><a href="#hero" class="navlink" title="">Główna</a></li>
+                      <li><a href="#service" class="navlink" title="">Usługi</a></li>
+                      <li><a href="#realisation" class="navlink" title="Galeria">Portfolio</a></li>
+                      <li><a href="#opinion" class="navlink" title="Galeria">Opinie</a></li>
+                      <li><a href="#contact" class="navlink" title="Kontakt">Kontakt</a></li>
+                    </ul>
+                    <button class="nav-toggler">
+                      <span></span>
+                    </button>
+                  </nav>
+            </header>
             <div class="bg-wrap">
                 <img src="src/img/about.jpg" alt="">
             </div>
-            <header class="site-header container-flex">
-                <div class="logo-wrap">
-                    <span class="text--lg">Future Web</span>
-                </div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#about">Start</a>
-                        </li>
-                        <li>
-                            <a href="#service">Usługi</a>
-                        </li>
-                        <li>
-                            <a href="#realisation">Realizacje</a>
-                        </li>
-                        <li>
-                            <a href="#opinion">Opinie</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Kontakt</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
             <div class="line-wrap-left">
                 <div class="line-l-1"></div>
                 <div class="line-l-2"></div>
@@ -76,6 +69,7 @@
             </div>
         </section>
 
+        <!----
         <section class="scroll-wrapper-section about" id="about">
             <div class="bg-wrap">
                 <img src="src/img/copywright.jpg" alt="">
@@ -95,6 +89,7 @@
                 </div>
             </div>
         </section>
+        -->
 
         <section class="scroll-wrapper-section service" id="service">
             <div class="bg-wrap">
@@ -145,7 +140,7 @@
             <div class="container">
                 <span class="up-text up-text-line">03</span>
                 <h2>Wybrane realizacje</h2>
-                <div class="realisation__slider pt-small">
+                <div class="realisation__slider">
                     <div class="glide-2">
                         <div class="glide__track" data-glide-el="track">
                           <ul class="glide__slides">
@@ -419,6 +414,29 @@
         gap: 140,
         arrow: true,
     }).mount()
+  </script>
+  <script>
+      const navToggler = document.querySelector('.nav-toggler');
+const navMenu = document.querySelector('.site-navbar ul');
+const navLinks = document.querySelectorAll('.site-navbar a');
+
+allEventListners();
+
+function allEventListners() {
+navToggler.addEventListener('click', togglerClick);
+navLinks.forEach( elem => elem.addEventListener('click', navLinkClick));
+}
+
+function togglerClick() {
+navToggler.classList.toggle('toggler-open');
+navMenu.classList.toggle('open');
+}
+
+function navLinkClick() {
+if(navMenu.classList.contains('open')) {
+  navToggler.click();
+}
+}
   </script>
 </body>
 </html>

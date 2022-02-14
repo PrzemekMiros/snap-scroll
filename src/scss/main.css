@@ -14,9 +14,6 @@ html, body {
 .scroll-wrapper {
     overflow-y: scroll;
     height: 100vh;
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
 
@@ -56,4 +53,21 @@ html, body {
     height: 100%;
     object-fit: cover;
     object-position: center
+}
+
+@media(min-width:768px) {
+    .scroll-wrapper {
+        scroll-snap-type: mandatory;
+        scroll-snap-points-y: repeat(100vh);
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+    }
+    .scroll-wrapper-section {
+        display: flex;
+        align-items: center;
+        padding: 3% 0 5%;
+        min-height: 100vh;
+        scroll-snap-align: start;
+        position: relative;
+    }
 }

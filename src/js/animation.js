@@ -1,19 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.from(".site-header li", {
-  scrollTrigger: {
-    scroller: ".scroll-wrapper",
-    trigger: "section",
-    start: 'center 55%',
-    toggleActions: 'play complete restart reverse'
-  }, 
-  y: -100,
-  opacity: 0,
-  stagger: .01,
-  duration: .8,
-  ease: ' Power2.easeOut'
-});
-
 gsap.from(".logo-wrap", {
   scrollTrigger: {
     scroller: ".scroll-wrapper",
