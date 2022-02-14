@@ -10,9 +10,21 @@
     margin: 0 auto;
 }
 .hero__content h1 {
+  color: #47ffd3;
+  background-color: #47ffd3;
+  -moz-background: -moz-linear-gradient(-60deg, #47ffd3 10%, #531eff 40%, #ff1e98 80%);
+  -webkit-background: -webkit-linear-gradient(-60deg, #47ffd3 10%, #531eff 40%, #ff1e98 80%);
+  -o-background: -o-linear-gradient(-60deg, #47ffd3 10%, #531eff 40%, #ff1e98 80%);
+  -ms-background: -ms-linear-gradient(-60deg, #47ffd3 10%, #531eff 40%, #ff1e98 80%);
   background: linear-gradient(-60deg, #47ffd3 10%, #531eff 40%, #ff1e98 80%);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -ms-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
 }
 .hero__content span {
     position: absolute;
